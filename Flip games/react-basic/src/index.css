@@ -1,0 +1,253 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+/* 各种框子 */
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* 大盒子 */
+.p-4 {
+    padding: 1rem;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+/* 输入栏 */
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mr-2 {
+    margin-left: 0.5rem;
+}
+
+.py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.border-gray-300 {
+    --tw-border-opacity: 1;
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+/* 翻翻乐主体 */
+.grid-container2 {
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+    width: min(100%, 11rem);
+}
+
+.grid-container3 {
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    width: min(100%, 16.5rem);
+}
+.grid-container4 {
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+    width: min(100%, 22rem);
+}
+
+.grid-container5 {
+    grid-template-columns: repeat(5, minmax(0px, 1fr));
+    width: min(100%, 27.5rem);
+}
+
+.grid-container6 {
+    grid-template-columns: repeat(6, minmax(0px, 1fr));
+    width: min(100%, 33rem);
+}
+
+.grid-container7 {
+    grid-template-columns: repeat(7, minmax(0px, 1fr));
+    width: min(100%, 38.5rem);
+}
+
+.grid-container8 {
+    grid-template-columns: repeat(8, minmax(0px, 1fr));
+    width: min(100%, 44rem);
+}
+
+.grid-container9 {
+    grid-template-columns: repeat(9, minmax(0px, 1fr));
+    width: min(100%, 49.5rem);
+}
+
+.grid-container10 {
+    grid-template-columns: repeat(10, minmax(0px, 1fr));
+    width: min(100%, 55rem);
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.aspect-square {
+    aspect-ratio: 1 / 1;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.text-gray-400 {
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.duration-300 {
+    transition-duration: 300ms;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.bg-gray-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+/* 点击后的效果 */
+.bg-blue-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+/* 无敌翻翻乐标题 */
+.font-bold {
+    font-weight: 700;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+/* 你好厉害 */
+.text-green-600 {
+    --tw-text-opacity: 1;
+    color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.animate-bounce {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+    
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
+
+.none {
+    display: none;
+}
+
+
+/* 重来按钮 */
+.transition-colors {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.bg-green-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+button, [role="button"] {
+    cursor: pointer;
+}
